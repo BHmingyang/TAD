@@ -137,7 +137,7 @@ def run_tests(solution_code, test_code, timeout=20):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="Model Path")
-    parser.add_argument("--parquet_path", type=str, default="Model Path")
+    parser.add_argument("--parquet_path", type=str, default="Dataset Path")
     parser.add_argument("--output_path", type=str, required=True)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--num_samples", type=int, default=1)

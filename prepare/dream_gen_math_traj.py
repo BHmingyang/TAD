@@ -13,7 +13,7 @@ Usage example:
       --output_path outputs/gsm8k_dream_traj.jsonl \
       --dataset_name gsm8k \
       --dataset_config main \
-      --dataset_split test \
+      --dataset_split train \
       --max_new_tokens 256 \
       --num_samples 1 \
       --temperature 0.2 \
@@ -260,7 +260,6 @@ def main():
         "--dataset_name",
         type=str,
         default="gsm8k",
-        choices=["gsm8k", "qwedsacf/competition_math"],
         help="Dataset name",
     )
     parser.add_argument("--dataset_config", type=str, default=None, help="Dataset config")
