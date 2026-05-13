@@ -5,7 +5,7 @@
 
 <div align="center">
 
-![TAD Results](results.pdf)
+![TAD Results](results.png)
 
 </div>
 
