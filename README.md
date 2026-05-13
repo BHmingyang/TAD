@@ -1,5 +1,13 @@
-# TAD: Temporal-Aware Trajectory Self-Distillation for Fast and Accurate  Diffusion LLM
+# TAD: Temporal-Aware Trajectory Self-Distillation for Fast and Accurate Diffusion LLM
 
+[![Paper](https://img.shields.io/badge/Paper-arXiv:2605.09536-orange)](https://arxiv.org/abs/2605.09536)
+[![HuggingFace](https://img.shields.io/badge/🤗-TAD-yellow)](https://huggingface.co/collections/Zhouhhy/tad)
+
+<div align="center">
+
+![TAD Results](results.pdf)
+
+</div>
 
 ## 1. Environment Setup
 
@@ -136,3 +144,14 @@ The evaluation scripts cover the following benchmarks:
 - **Code**: HumanEval, MBPP
 
 Results will be saved under `evals_results/`.
+
+## Acknowledgments
+
+This project builds upon excellent open-source work:
+- [LLaDA](https://arxiv.org/abs/2502.09992) - Large Language Diffusion Models
+- [Dream](https://arxiv.org/abs/2508.15487) - Diffusion Large Language Models
+- [Fast-dLLM](https://arxiv.org/abs/2505.22618) - Training-free acceleration
+- [D2F](https://arxiv.org/abs/2508.09192) - Discrete diffusion forcing
+- [dParallel](https://arxiv.org/abs/2509.26488) - Distilled dLLMs
+- [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) - Evaluation framework
+- [d3LLM](https://github.com/hao-ai-lab/d3LLM) - Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation
